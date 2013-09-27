@@ -5,11 +5,11 @@
 @popd
 
 @rem ä¬ã´ïœêîÇÃí«â¡
-@set PATH=%PATH%;%LOCAL%\batlib\bin
-@set PATH=%PATH%;%LOCAL%\batlib\bin-UNIX
-@set PATH=%PATH%;%LOCAL%\batlib\bin-scripts
-@set PATH=%PATH%;%LOCAL%\batlib\bin-tukubai
-@set PATH=%PATH%;%LOCAL%\batlib\tools
+@set PATH=%PATH%;%LOCAL%\bin
+@set PATH=%PATH%;%LOCAL%\bin-scripts
+@set PATH=%PATH%;%LOCAL%\bin-UNIX
+@set PATH=%PATH%;%LOCAL%\tools
+@set PATH=%PATH%;%LOCAL%\links
 @set PATHEXT=%PATHEXT%;.LNK;.URL;
 @set EDITOR=sakura
 
