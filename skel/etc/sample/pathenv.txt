@@ -1,0 +1,21 @@
+REM *************************************************
+REM * パス設定ファイル                              *
+REM *  cdrコマンド、openコマンドで使用              *
+REM *                                               *
+REM *  ※cdr_ 以降が、コマンドから呼び出す際の引数  *
+REM *************************************************
+
+rem 指定なしの場合
+set cdr_=%HOME%
+
+rem システムフォルダ
+set cdr_local=%LOCAL%
+set cdr_bin=%LOCAL%\bin
+set cdr_etc=%LOCAL%\etc
+
+rem ユーザフォルダ
+set cdr_home=%USERPROFILE%
+set cdr_desk=%USERPROFILE%\Desktop
+set cdr_pict=%USERPROFILE%\Pictures
+set cdr_doc=%USERPROFILE%\Documents
+set cdr_sendto=%USERPROFILE%\SendTo
