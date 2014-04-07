@@ -1,5 +1,5 @@
-etc/
-lnk*/
-sched/
-tools/
-var/
+/etc/
+/lnk*/
+/sched/
+/tools/
+/var/
