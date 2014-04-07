@@ -9,8 +9,8 @@
 @set PATH=%PATH%;%LOCAL%\bin-scripts
 @set PATH=%PATH%;%LOCAL%\bin-UNIX
 @set PATH=%PATH%;%LOCAL%\tools
-@set PATH=%PATH%;%LOCAL%\lnk
-@set PATHEXT=%PATHEXT%;.LNK;.URL;
+@rem set PATH=%PATH%;%LOCAL%\lnk
+@set PATHEXT=%PATHEXT%;.URL
 @set EDITOR=sakura
 
 @if "%~1" == "--terminal" (

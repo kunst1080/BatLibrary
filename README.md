@@ -6,8 +6,9 @@ Library of BAT files
 
 # 環境変数の設定
 - LOCAL = このフォルダ
-- LOCAL_BIN = %LOCAL%\links
+- LOCAL_BIN = %LOCAL%\lnk
 - PATH = %PATH%;%LOCAL_BIN%
+- PATHEXT = %PATHEXT%;.LNK
 
 
 # フォルダ階層
@@ -21,7 +22,7 @@ Library of BAT files
 		|
 	*	+---skel			… 設定の雛形
 		|   +---etc
-		|   +---links
+		|   +---lnk
 		|   +---sched
 		|   |   +---rc.init
 		|   |   +---rc.init2
