@@ -1,0 +1,11 @@
+q=exit
+c=cls
+clear=cls
+lf=dir /b /A-D $* 
+ld=dir /b /AD $*
+l=ls $*
+nu=net use $*
+ndel=net use /delete $*
+evlog_onoff=evlog /L system /FI "ID eq 6005 or ID eq 6006" /V /FO CSV $b for /f "usebackq tokens=3,8 delims=," %i in (`findstr .*`) do @echo %i %j
+ifconfig=ipconfig $*
+cd=pushd $*
