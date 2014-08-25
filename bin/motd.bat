@@ -1,0 +1,1 @@
+@start %LOCAL%\etc\motd.txt
