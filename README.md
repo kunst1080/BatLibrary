@@ -14,8 +14,7 @@ Library of BAT files
 # フォルダ階層
 	%LOCAL%
 	*	+---bin 			… BATファイル(基本的なコマンド)
-	*	+---bin-UNIX		… UNIXコマンドのクローン
-	*	+---bin-scripts		… VBScript・JScript
+	*	+---scripts			… VBScript・JScript
 		|
 		+---etc				… コンフィグ用フォルダ。
 		|						初期設定は skel\etcよりコピー
